@@ -148,7 +148,7 @@ jobs:
             fi
         done
         # Navigate to the parent directory
-        cd ../
+        cd android-recovery
         # Create the necessary directories
         echo "Creating directory: $DEVICE_DIRECTORY"
         mkdir -p "$DEVICE_DIRECTORY"
